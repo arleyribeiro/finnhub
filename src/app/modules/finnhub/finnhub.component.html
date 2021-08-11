@@ -1,0 +1,28 @@
+<div class="container-finnhub">
+  <header class="header">
+    <h1>Stock market</h1>
+  </header>
+  <div class="url-input">
+    <mat-form-field class="example-full-width" appearance="outline">
+      <mat-label>URL</mat-label>
+      <input matInput [formControl]="urlControl" />
+    </mat-form-field>
+
+    <div class="search-button">
+      <button
+        mat-flat-button
+        color="primary"
+        (click)="searchUrl()"
+        [disabled]="urlControl.invalid"
+      >
+        Search
+      </button>
+    </div>
+  </div>
+  <div class="data">
+    <app-finnhub-data
+      [dataSource]="data"
+      (reset)="resetAll()"
+    ></app-finnhub-data>
+  </div>
+</div>

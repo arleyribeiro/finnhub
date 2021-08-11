@@ -25,4 +25,11 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
 # finnhub
+
+https://finnhub.io/api/v1/quote?symbol=AAPL&token=c3rc512ad3i88nmlp6r0
+https://finnhub.io/api/v1/quote?symbol=EXCOF&token=c3rc512ad3i88nmlp6r0
+https://finnhub.io/api/v1/quote?symbol=UPOW&token=c3rc512ad3i88nmlp6r0
+https://finnhub.io/api/v1/quote?symbol=MSFT&token=c3rc512ad3i88nmlp6r0
+https://finnhub.io/api/v1/quote?symbol=AMZN&token=c3rc512ad3i88nmlp6r0

@@ -1,0 +1,21 @@
+.container-finnhub {
+  .header {
+    display: grid;
+    justify-content: center;
+  }
+  .url-input {
+    width: 100%;
+    display: flex;
+    gap: 16px;
+
+    .search-button {
+      padding-top: 4px;
+      button {
+        height: 52px;
+      }
+    }
+  }
+  mat-form-field {
+    width: 100%;
+  }
+}
