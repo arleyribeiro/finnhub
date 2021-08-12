@@ -80,6 +80,7 @@ export class FinnhubComponent implements OnInit, OnDestroy {
 
   private _restartPollingStocks() {
     (this.data || []).forEach((stock: any) => {
+      this._setData[stock.symbol] = stock;
       this.pollingByStock(stock);
     });
   }
